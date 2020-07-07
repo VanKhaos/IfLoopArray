@@ -1,22 +1,16 @@
 package de.thunderfrog;
 
+import de.thunderfrog.appMain.appInit;
+import de.thunderfrog.appMain.appMenu;
+
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
-    // Arrays
-    String[] sArray;
-    Integer[] iArray;
 
-    // ArrayList
-    ArrayList<String> alString = new ArrayList<String>();
-    ArrayList<Integer> alInteger = new ArrayList<Integer>();
-
-    // Helper Variable
-    Integer i = 0;
-    String appName = "IfLoopArray";
-    String appVersion = "1.0.0";
-
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException, InterruptedException {
+        // Init App
+        appInit.startApp();
+        appMenu.drawOption();
     }
 }

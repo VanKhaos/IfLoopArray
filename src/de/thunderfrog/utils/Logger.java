@@ -13,7 +13,5 @@ public class Logger {
     public static void log(String s){
         System.out.println(t + " | " + s);
     }
-    public static void noTimeLog(String s){
-        System.out.println(s);
-    }
+
 }
