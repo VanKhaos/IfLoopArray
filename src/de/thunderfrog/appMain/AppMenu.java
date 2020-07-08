@@ -1,5 +1,6 @@
 package de.thunderfrog.appMain;
 
+import de.thunderfrog.appModules.MString;
 import de.thunderfrog.appModules.ifelse;
 import de.thunderfrog.utils.Logger;
 
@@ -44,7 +45,7 @@ public class AppMenu {
         // Option switch case
         switch (id) {
             case 1 -> {
-                ifelse.fxIf();
+                MString.moduleString();
             }
             case 2 -> {
                 Logger.log("Case 2");
