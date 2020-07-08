@@ -68,6 +68,13 @@ public class MString {
         // Dramatic Pause
         Sleeper.sleepNL(2000);
 
+        // String Replace
+        Logger.log("String Replace");
+        String repString = "Replace the String char with an other";
+        System.out.println(repString);
+        String newRepString = repString.replace("e","Z");
+        System.out.println("Replace String => " + newRepString);
+
 
 
 
