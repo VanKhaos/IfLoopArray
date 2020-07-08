@@ -1,6 +1,6 @@
 package de.thunderfrog.appModules;
 
-import de.thunderfrog.appMain.appMenu;
+import de.thunderfrog.appMain.AppMenu;
 import de.thunderfrog.utils.Logger;
 
 import java.io.BufferedReader;
@@ -58,7 +58,7 @@ public class ifelse {
         }
 
         Thread.sleep(5000);
-        appMenu.drawOption();
+        AppMenu.drawOption();
 
 
     }

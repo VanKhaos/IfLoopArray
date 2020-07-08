@@ -1,6 +1,6 @@
 package de.thunderfrog.appMain;
 
-public class appConfig {
+public class AppConfig {
     public static String appName = "IfLoopArray";
     public static String appVersion = "1.0.0";
     public static String appCreator = "Christian Richter";
@@ -11,7 +11,7 @@ public class appConfig {
     }
 
     public static void setAppName(String appName) {
-        appConfig.appName = appName;
+        AppConfig.appName = appName;
     }
 
     public static String getAppVersion() {
@@ -19,7 +19,7 @@ public class appConfig {
     }
 
     public static void setAppVersion(String appVersion) {
-        appConfig.appVersion = appVersion;
+        AppConfig.appVersion = appVersion;
     }
 
     public static String getAppCreator() {
@@ -27,7 +27,7 @@ public class appConfig {
     }
 
     public static void setAppCreator(String appCreator) {
-        appConfig.appCreator = appCreator;
+        AppConfig.appCreator = appCreator;
     }
 
     public static String getAppCreatorMail() {
@@ -35,6 +35,6 @@ public class appConfig {
     }
 
     public static void setAppCreatorMail(String appCreatorMail) {
-        appConfig.appCreatorMail = appCreatorMail;
+        AppConfig.appCreatorMail = appCreatorMail;
     }
 }

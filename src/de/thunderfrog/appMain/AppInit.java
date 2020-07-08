@@ -2,9 +2,9 @@ package de.thunderfrog.appMain;
 
 import de.thunderfrog.utils.Logger;
 
-import static de.thunderfrog.appMain.appConfig.*;
+import static de.thunderfrog.appMain.AppConfig.*;
 
-public class appInit {
+public class AppInit {
 
     // Start the Main App
     public static void startApp() {
