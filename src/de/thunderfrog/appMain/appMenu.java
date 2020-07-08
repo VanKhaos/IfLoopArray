@@ -1,6 +1,6 @@
 package de.thunderfrog.appMain;
 
-import de.thunderfrog.ifelse.ifelse;
+import de.thunderfrog.appModules.ifelse;
 import de.thunderfrog.utils.Logger;
 
 import java.io.BufferedReader;
